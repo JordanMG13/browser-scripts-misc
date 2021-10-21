@@ -77,6 +77,7 @@ const case_status_classes = {
     Customer:       'cus',
     Support:        'sup',
     Engineering:    'eng',
+'Field Engineering':'fie',
     Upstream:       'ups',
     Operations:     'ops',
     CPC:            'cpc',
@@ -139,6 +140,7 @@ style.innerHTML += `
 .status-wocus{background-color:#9eebcf;}
 .status-wosup{background-color:#ffb517;}
 .status-woeng{background-color:#fbf1a9;}
+.status-wofie{background-color:#9c00b8;}
 .status-woups{background-color:#96ccff;}
 .status-woops{background-color:#cdecff;}
 .status-wocpc{background-color:#ad99ff;}
